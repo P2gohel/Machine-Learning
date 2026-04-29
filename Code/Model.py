@@ -195,7 +195,7 @@ print(f"{'Random Forest':<20} {rf_r2:>8.4f} ${rf_rmse:>14,.2f} ${rf_mae:>14,.2f}
 print(f"{'Decision Tree':<20} {dt_r2:>8.4f} ${dt_rmse:>14,.2f} ${dt_mae:>14,.2f}")
 print(f"{'KNN':<20} {knn_r2:>8.4f} ${knn_rmse:>14,.2f} ${knn_mae:>14,.2f}")
 print("=" * 62)
-print("\n✅ Best Model: Random Forest (lowest RMSE)")
+print("\n Best Model: Random Forest (lowest RMSE)")
 
 # Final Comparison Chart
 models = ['Random Forest', 'Decision Tree', 'KNN']
@@ -234,4 +234,4 @@ plt.tight_layout()
 plt.savefig('Img/final_model_comparison.png', dpi=150)
 plt.close()
 print("Final comparison chart saved!")
-print("\n✅ All models complete!")
+print("\n All models complete!")
